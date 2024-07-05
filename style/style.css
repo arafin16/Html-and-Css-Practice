@@ -1,11 +1,54 @@
 
 *{
-    margin: 05px;
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
     
 }
-
-
-h3{
+.container{
+    text-align: center;
+    color: white;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(#0000004b,#0000004b),url("https://img.freepik.com/free-photo/sunset-silhouettes-trees-mountains-generative-ai_169016-29371.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.content{
+    width: 50%;
+}
+h1{
+    font-weight: 900;
+    font-size: 72px;
+    color: #00d3ff;
+}
+p{
+    line-height: 1.5;
+    padding: 15px;
+    font-size: 22px;
+}
+a{
+    display: inline-block;
+    padding: 1em 3.5em;
+    background-color: #050c9c;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+.blank{
+    width: 100%;
+    min-height: 60vh;
+    background-color:black;
+}
+/* h3{
     color:black;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
@@ -17,4 +60,4 @@ h3{
 text-align: justify;
 font-style: italic;
 
-}
+} */
